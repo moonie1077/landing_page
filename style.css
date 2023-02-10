@@ -94,21 +94,71 @@ margin-top: 50px;
 .content_content{
 display: flex;
 width: 150px;
-gap: 50px;
+gap: 75px;
 justify-content: center;
 text-align: center;
 }
 
-.content_image{
+.content_image {
 border: 4px solid #1ca9c9;
 border-radius: 10px;
 width: 150px;
 height: 150px;
 }
 
-.content_text{
+.content_text {
 display:flex;
 font-size: 14px;
 font-weight: 300;
 color: gray;
+}
+
+.quote {
+display: flex;
+flex-direction: column;
+background: #E5E7EB;
+padding: 50px 150px;
+}
+
+.quote_text{
+font-family: "Cinzel Decorative", Verdana, Sans-serif;
+color: #1F2937;
+font-style: italic;
+font-weight: 100;
+font-size: 30px;
+}
+
+.quote_by{
+display: flex;
+font-style: bold;
+font-size: 24px;
+font-weight: 600;
+align-self: flex-end;
+}
+
+.action{
+display: flex;
+background: #3882F6;
+margin: 20px 50px;
+padding: 45px 80px;
+justify-content: space-between;
+border-radius: 12px;
+gap: 80px;
+color: white;
+}
+
+.action_content{
+font-size: 12px;
+font-weight: 200
+}
+
+.footer {
+background: #1F2937;
+color: #E5E7EB;
+display: flex;
+margin: 0;
+align-items: center;
+justify-content: center;
+width: 100%;
+height: 100px;
 }
